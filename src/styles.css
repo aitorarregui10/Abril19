@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #98c6d4;
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,16 +9,10 @@ body {
     min-height: 100vh;
   }
   
-  .container {
-    max-width: 1200px;
-    padding: 20px;
-    background-color: #041638; 
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-  }
-  
+
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
+    color:#012e5f;
   }
   
   p {
