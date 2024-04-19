@@ -1,0 +1,39 @@
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #333; /* Color del texto */
+    font-size: 14px; /* Tamaño de la letra */
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

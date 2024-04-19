@@ -1,0 +1,10 @@
+<app-coment-hijo (llamadaPadre)="recibirComentario($event)"></app-coment-hijo>
+
+<h2>Comentarios:</h2>
+
+  @for (comentario of comentarios; track $index){
+    <ul>
+        <li>{{comentario}}</li>
+    </ul>
+    }
+

@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #041638; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
